@@ -2,15 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     font-family: 'Arial';
     font-style: normal;
 }
 
-body {
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
     width: 1440px;
 }
 
 .header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 50px;
@@ -38,7 +47,8 @@ a:visited {
 }
 
 .container {
-    display: flex;    
+    display: flex;
+    width: 100%; 
 }
 
 
@@ -47,8 +57,8 @@ a:visited {
     justify-content: space-around;
     position: relative;
     align-items: center;
-    width: 1440px;
     height: 950px;
+    width: 100%;
 }
 
 .main-image {
@@ -100,6 +110,7 @@ a:visited {
     color: #FFFFFF;
     font-size: 50px;
     padding: 50px;
+    width: 100%;
 }
 
 
